@@ -23,3 +23,5 @@ function relatorioJogo(pontosString){
     return [quebraRecords, melhor, indicePior]
 }
 console.log(relatorioJogo('100, 20, 30, 30, 1000'))
+
+//test pull
