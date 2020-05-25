@@ -1,6 +1,7 @@
 const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json'
 const axios = require('axios')
 
+//mulher chinesa com menor salario
 filtroChina = e => e.pais=='China'
 filtroMulher = e => e.genero == 'F'
 menorSalario = (funcAnterior, funcAtual)=> funcAnterior.salario<funcAtual.salario ? funcAnterior : funcAtual
