@@ -1,0 +1,4 @@
+node_modules
+//para instalar o lodash, pelo terminal: npm i lodash
+//instalar o nodemon pelo terminal: npm i -g nodemon
+//ao alterar um código, se rodar pelo: nodemon codigo.js, ele é atualizado durante a execução.
